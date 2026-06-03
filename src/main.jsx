@@ -9,9 +9,12 @@ function App() {
       <h1>test-vite</h1>
       <p className="subtitle">This Vite React starter was bootstrapped by SaaSClaw and is ready for preview deploys.</p>
       <div className="actions">
-        <a className="button" href="https://app.saasclaw.ai/">Open SaaSClaw</a>
-        <a className="button secondary" href="https://github.com/">View source</a>
+        <a className="button" href="./">Explore</a>
+        <a className="button secondary" href="#next">Get Started</a>
       </div>
+      <section id="next">
+        <p className="subtitle">Start shaping this page into your real homepage, launch page, or landing flow.</p>
+      </section>
     </main>
   )
 }
